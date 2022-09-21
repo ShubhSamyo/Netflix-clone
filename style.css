@@ -395,7 +395,7 @@ button {
     }
 
     .btn {
-        width: 50%;
+        width: 55%;
         display: flex;
         padding-right: 0px;
         align-items: center;
@@ -424,15 +424,25 @@ button {
 
     .cta-form {
         display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
         align-items: center;
         flex-direction: column;
         text-align: center;
     }
+    .cta-form input {
+        padding: 18px 200px 12px 10px;
+        border: none;
+    }
+    .cta-form1 input {
+        padding: 18px 200px 12px 10px;
+        border: none;
+    }
 
     .get {
         margin-top: 15px;
-        padding: 12px;
-        font-size: 21px;
+        padding: 8px;
+        font-size: 15px;
         border: none;
         background-color: red;
     }
