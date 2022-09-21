@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 49px;
+    width: 178px;
+}
+
+.container {
+    height: 110vh;
+    background-image: url(./Images/hero_img.jpeg);
+    background-size: cover;
+    box-shadow: inset 10px 10px 95px 151px rgba(0, 0, 0, 0.91);
+}
+
+.btn {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    padding: 8px;
+    color: #fff;
+    background: none;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.sign {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+}
+
+.our-story-card-text {
+
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.our-story-card-text h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.our-story-card-text h2 {
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.cta-form h3 {
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.cta-form input {
+    padding: 18px 250px 12px 10px;
+    border: none;
+}
+
+.get {
+    padding: 12px;
+    font-size: 21px;
+    border: none;
+    background-color: red;
+}
+
+
+.container2 {
+    height: 500px;
+    background-color: black;
+    background-position: cover;
+    border-top: 8px solid #222;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 50px;
+    transform: scale();
+    transition: all 0.10s ease-in-out;
+
+}
+
+.image {
+    position: relative;
+    z-index: 2;
+}
+
+.image img {
+    z-index: 2;
+}
+
+.image video {
+    position: absolute;
+    right: 75px;
+    top: 98px;
+    z-index: -1;
+}
+
+
+.enjoy h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.enjoy h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.container3 {
+    height: 500px;
+    background-color: black;
+    border-top: 8px solid #222;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.10s ease-in-out;
+}
+
+.download h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.download h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.container4 {
+    height: 500px;
+    background-color: black;
+    border-top: 8px solid #222;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.10s ease-in-out;
+}
+
+.watch h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.watch h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.img3 {
+    position: relative;
+    z-index: 1;
+
+}
+
+.img3 video {
+    width: 400px;
+    position: absolute;
+    right: 135px;
+    top: 40px;
+    z-index: -1;
+
+}
+
+.container5 {
+    height: 500px;
+    background-color: black;
+    border-top: 8px solid #222;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.10s ease-in-out;
+}
+
+.create h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.create h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.container6 {
+    height: 800px;
+    background-color: black;
+    border-top: 8px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* transition: all 0.10s ease-in-out; */
+}
+
+.container6 h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.box{
+    height: 60px;
+    width: 800px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 300;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.cta-form1{
+    margin-top: 80px;
+}
+.cta-form1 h3{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.cta-form1 input{
+    padding: 18px 250px 12px 10px;
+    border: none;
+}
+.container7{
+    height: 400px;
+    background-color: black;
+    border-top: 8px solid #222;
+    display: flex;
+    color: #737373;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container7 p{
+    margin-top: 40px;
+}
+.faq{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+   
+}
